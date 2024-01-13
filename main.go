@@ -1,10 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"team/halper"
+)
 
 func main() {
-	fmt.Println(helper.Add(1, 2))
+	fmt.Println(halper.Add(1,2))
 	fmt.Println("HelloWorld!")
 }
-
-
